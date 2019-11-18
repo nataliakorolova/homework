@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    background: url(./images/background.jpg) 50% no-repeat;
+    background-size: cover;
+    padding: 100px 0;
+    min-width: 350px;
+    max-width: 1200px;
+}
+
+.wrapper_header {
+    max-width: 350px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    color: #262626;
+}
+
+.header_title {
+    font-size: 90px;
+    line-height: 1;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.header_text {
+    font-size: 17px;
+    padding: 45px 0;
+}
+
+.wrapper_main {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.form-block {
+    display: flex;
+    margin: 0 25px;
+}
+
+.section_form {
+    width: 50%;
+    margin: 0 25px;
+}
+
+.wrapper_input {
+    padding-bottom: 15px;
+}
+
+.form_contact_input {
+    width: 100%;
+    background-color: #00c4c4;
+    opacity: 0.52;
+    border: none;
+    font-size: 15px;
+    color: white;
+    padding: 20px 15px;
+    border-left: 5px solid rgba(53, 91, 130,0);
+}
+
+.section_info {
+    width: 50%;
+    margin: 0 25px;
+}
+
+.block_info_wrapper {
+    padding-bottom: 20px;
+}
+
+.block_info_description {
+    font-size: 20px;
+}
+.block_info_title {
+    font-size: 17px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.botton {
+    font-size: 20px;
+    text-transform: uppercase;
+    background-color: rgba(53, 91, 130,1);
+    color: white;
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.5);
+    padding: 14px 34px;
+    outline: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.wrapper_footer {
+    background-color: #262626;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 85px;
+    margin-top: 200px;
+    color: rgba(255,255,255,0.5);
+    margin: 0 auto;
+}
+
+.copyright {
+    font-size: 16px;
+    opacity: 0.52;
+}
+
+.logo {
+    font-family: 'Pacifico', cursive;
+    font-size: 25px;
+}
+
+.author {
+    font-size: 15px;
+}
+
+.span_red {
+    font-weight: 700;
+    color: #ff2b58;
+}
+
+.form_contact_input:focus {
+    opacity: 1;
+    outline-offset: 0;
+    outline: none;
+    border-left: 5px solid rgba(53, 91, 130,1);
+    font-weight: 700;
+}
+
+::-webkit-input-placeholder { 
+    color:white; 
+}

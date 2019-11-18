@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.list {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    padding: 15px;
+    background-color: #FDDE7E;
+    max-width: 1200px;
+    height: 600px;
+    list-style-type: none;
+}
+
+.item {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    margin: 0 15px;
+    height: 445px;
+    width: 360px;
+    background-color: #FFFFFF;
+    text-align: center;
+    box-shadow: 1px 1px 0 rgba(0, 0, 0, 0.2)
+}
+.item-center {
+    width: 360px;
+}
+.item-content-top {
+    flex-grow: 1;
+}
+
+.item-label {
+    color: #02995B;
+    text-align: center;
+    font-size: 70px;
+    font-family: "Miso";
+    font-weight: bold;
+    margin-top: 40px;
+}
+
+.picture {
+    margin-bottom: 37px;
+    margin-top: 20px;
+}
+
+.media {
+    text-align: center;
+    font-size: 56px;
+    font-family: "Miso";
+}
+
+.item-description {
+    margin-bottom: 36px;
+    text-align: center;
+    font-size: 20px;
+    font-family: "Miso";
+    font-weight: lighter;
+}
+
+.item-label-center {
+    margin-top: 50px;
+}
+
+.item-description-center {
+    margin-bottom: 55px;    
+}
+
+.picture-center {
+    margin-top: 41px;
+}

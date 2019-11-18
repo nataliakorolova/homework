@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.conteiner {
+    background-color: black;
+    width: 1170px;
+    height: 420px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.logo {
+    padding-top: 120px;
+}
+
+hr {
+    width: 230px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.title {
+    color: white;
+    margin-top: 55px;
+}
+
+.contact li {
+    display: inline-block;
+    text-align: center;
+}
+
+.contact {
+    margin-top: 20px;
+}
+
+.fb {
+    margin-right: 30px;
+}
+
+.twitter {
+    margin-right: 30px;
+}
+
+.google {
+    margin-right: 30px;
+}
+
+.footer {
+    color: white;
+    margin-top: 90px;
+    margin-bottom: 42px;
+}
+
+#word {
+    color: #19C8F6;
+}

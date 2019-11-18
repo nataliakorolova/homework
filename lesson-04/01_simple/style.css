@@ -1,0 +1,38 @@
+body {
+    width: 786px;
+    margin: 0 auto;
+}
+
+header {
+    height: 40px;
+    background-color: #a52a2a;
+    text-align: center;
+    color: white;
+}
+
+.text {
+    font-size: 18px;
+}
+
+.foto {
+    text-align: center;
+}
+
+.color {
+    color: blue;
+}
+
+table {
+    margin: auto;
+}
+
+.bordered {
+    border: 3px dashed black;
+}      
+
+footer  {
+    font-size: 20px;
+    background-color: black;
+    text-align: center;
+    color: white;
+}
