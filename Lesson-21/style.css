@@ -239,17 +239,11 @@
 }
 .block-info__img-right {
   margin-bottom: 2px;
-  width: 350px;
-  height: 220px;
-  background: url(./images/img01.jpg) no-repeat;
-  background-size: cover;
+  max-width: 100%;
 }
 .block-info__img-left {
   margin-top: 2px;
-  width: 350px;
-  height: 220px;
-  background: url(./images/img02.jpg) 50% no-repeat;
-  background-size: cover;
+  max-width: 100%;
   align-self: flex-end;
 }
 .block-info .mini-block {
@@ -299,9 +293,11 @@
 
   .block-info__right {
     width: 100%;
+    margin-left: 0;
   }
 
   .block-info__left {
+    margin-right: 0;
     width: 100%;
   }
 
@@ -311,6 +307,11 @@
 
   .mini-block__title {
     font-size: 26px;
+  }
+
+  img {
+    height: auto;
+    width: 100%;
   }
 }
 .block-search {
