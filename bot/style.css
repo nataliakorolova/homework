@@ -14,11 +14,13 @@ ul {
 }
 
 .wrapper {
+  padding: 0 15px;
   margin: 0 auto;
 }
 
 .page {
   background-image: url(./images/bg-main.jpg);
+  background-size: cover;
   max-width: 1440px;
   width: 100%;
   display: flex;
@@ -161,9 +163,54 @@ ul {
     font-size: 16px;
   }
 }
+@media only screen and (max-width: 375px) {
+  .header__inner {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .header__image {
+    bottom: -147px;
+  }
+  .header__image img {
+    display: inline-block;
+    max-width: 180px;
+    width: 100%;
+    height: auto;
+  }
+  .header__block-chat {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    margin-right: 0;
+  }
+  .header__block-title {
+    margin-right: 0;
+    margin-top: 15px;
+  }
+  .header__block-title p {
+    text-align: center;
+  }
+  .header__quote {
+    position: absolute;
+    width: 231px;
+    height: 66px;
+    left: 100px;
+    top: 500x;
+  }
+  .header__quote-text {
+    position: absolute;
+    width: 231px;
+    height: 28px;
+    left: 150px;
+    top: 465px;
+    font-size: 18px;
+    line-height: 20px;
+  }
+}
 .main-block {
   background-image: url(./images/bg-2.png);
   background-repeat: no-repeat;
+  background-size: cover;
   height: 1300px;
   z-index: 3;
 }
@@ -199,6 +246,28 @@ ul {
   transform: scale(0.9);
 }
 
+@media only screen and (max-width: 375px) {
+  .main-block__title img {
+    display: inline-block;
+    max-width: 300px;
+    width: 100%;
+    height: auto;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .main-block__list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 0;
+  }
+  .main-block__item {
+    width: 50%;
+    max-width: 262px;
+    padding: 40px;
+  }
+}
 .info-block__inner {
   height: 600px;
   display: flex;
@@ -316,13 +385,13 @@ ul {
   .info-block__use {
     display: inline-block;
     padding-bottom: 140px;
-    font-size: 20px;
-    line-height: 24px;
+    font-size: 16px;
+    line-height: 20px;
     letter-spacing: 0.03em;
     opacity: 0.8;
   }
   .info-block__arrow {
-    max-width: 24px;
+    max-width: 20px;
     height: auto;
   }
   .info-block__image-block {
@@ -332,6 +401,7 @@ ul {
 }
 .footer {
   background-image: url(./images/bg-4.png);
+  background-size: cover;
   background-repeat: no-repeat;
   max-height: 405px;
   height: 100%;
