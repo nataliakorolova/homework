@@ -99,6 +99,7 @@ ul {
         margin-top: 90px;
         margin-right: 10px;
     }
+
     &__block-circle {
         height: 230px;
         width: 230px;
@@ -221,6 +222,7 @@ ul {
         &__block-title {   
             margin-right: 0; 
             margin-top: 15px;
+
             p {
                 text-align: center;
             }
@@ -236,11 +238,11 @@ ul {
 
         &__quote-text {
             position: absolute;
-            width: 231px;
+            width: 150px;
             height: 28px;
             left: 150px;
             top: 465px;
-            font-size: 18px;
+            font-size: 20px;
             line-height: 20px;
         }
     }
@@ -391,18 +393,18 @@ ul {
     }
 
     &__image-block {
-        margin-left: 70px;
         position: relative;
         max-width: 310px;
         width: 100%;
         height: auto;
+        margin-left: 70px;
     }
 
     &__image {
+        position: absolute;
         display: block;
         max-width: 100%;
         height: auto;
-        position: absolute;
         bottom: -3%;
     }
 }
@@ -522,6 +524,7 @@ ul {
         font-size: 20px;
         line-height: 23px;
         color: #090909;
+
         &:hover {
             opacity: 0.8;
         }
@@ -564,6 +567,7 @@ ul {
         color: #2B2A2A;
     }
 }
+
 @media only screen and (max-width: 768px) {
     .footer {
         max-height: 280px;

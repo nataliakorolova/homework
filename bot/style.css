@@ -199,11 +199,11 @@ ul {
   }
   .header__quote-text {
     position: absolute;
-    width: 231px;
+    width: 150px;
     height: 28px;
     left: 150px;
     top: 465px;
-    font-size: 18px;
+    font-size: 20px;
     line-height: 20px;
   }
 }
@@ -328,17 +328,17 @@ ul {
   transform: rotate(360deg);
 }
 .info-block__image-block {
-  margin-left: 70px;
   position: relative;
   max-width: 310px;
   width: 100%;
   height: auto;
+  margin-left: 70px;
 }
 .info-block__image {
+  position: absolute;
   display: block;
   max-width: 100%;
   height: auto;
-  position: absolute;
   bottom: -3%;
 }
 
